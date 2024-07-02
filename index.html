@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK 1: Abegunde Timilehin</title>
+    <link rel="shortcut icon" href="s.jpg" type="image/x-icon" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOXICON CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- PROFILE CARD -->
+    <section class="card">
+      <div class="cover" data-testid="cover-info">
+        <p data-testid="cover-info-text">GOD + CODE</p>
+      </div>
+
+      <div class="info" data-testid="info">
+        <!-- SLACK PROFILE IMAGE -->
+        <img
+          src="s.jpg"
+          alt="Slack Profile Picture"
+          data-testid="slackProfilePicture"
+          class="profile-img"
+        />
+        <!-- SLACK PROFILE INFO -->
+        <section>
+          <h1 data-testid="slackDisplayName">Timilehin Abegunde</h1>
+          <p data-testid="slackEmail" class="email">
+            timilehinsunday144@gmail.com
+          </p>
+        </section>
+
+        <section>
+          <!-- MY GOALS -->
+          <p class="goals" data-testid="my-goals">
+            Over the 2 next year, I am determined to enhance my frontend skills,
+            master backend development, and become a full-stack expert.
+            Additionally, I am passionate about empowering aspiring web
+            developers with my knowledge.
+          </p>
+
+          <!-- CURRENT DATE & TIME -->
+          <ul>
+            <li>
+              <span
+                ><i class="bx bx-time-five"></i>
+                <span data-testid="currentTimeUTC"></span
+              ></span>
+            </li>
+            <li>
+              <span>
+                <i class="bx bx-calendar"></i>
+                <span data-testid="currentDay"></span>
+              </span>
+            </li>
+          </ul>
+
+          <!-- USEFUL LINKS -->
+          <ul>
+            <li>
+              <i class="bx bx-link-alt"></i>
+              <a href="https://hng.tech/learn" data-testid="hngLink"
+                >HNG Tech</a
+              >
+            </li>
+            <li>
+              <i class="bx bx-link-alt"></i>
+              <a href="https://keyword.dog" data-testid="keywordLink"
+                >Keyword Dog</a
+              >
+            </li>
+            <li>
+              <i class="bx bx-link-alt"></i>
+              <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+                >Scrape Any Web</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
